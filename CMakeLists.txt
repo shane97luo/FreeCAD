@@ -25,6 +25,10 @@ if(FREECAD_USE_CCACHE)
     endif()
 endif()
 
+list(APPEND CMAKE_PREFIX_PATH "/home/heygears/Qt/6.7.0/gcc_64/lib/cmake/") # 安装路径前缀
+
+
+
 project(FreeCAD)
 
 set(PACKAGE_VERSION_NAME "Vulcan")
